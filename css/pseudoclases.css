@@ -56,16 +56,20 @@ label {
 }
 
 /* ? ------------- PSEUDO-CLASES ------------- */
+
+/*:active mientras haces clic*/
 .enlace:active {
 	background: #000;
 }
 
+/*:link estado del enlace antes de entrar*/
 .enlace:link {
-	color: blue;
+	color: red;
 }
 
+/*:link estado del enlace despues de entrar*/
 .enlace:visited {
-	color: #b1b1b1;
+	color: turquoise;
 }
 
 .enlace:hover {
@@ -74,11 +78,13 @@ label {
 
 
 /* ? --- --- --- --- PARRAFOS --- --- --- --- */
+/*:first-child acceder al primer elemento hijo*/
 .parrafos p:first-child {
 	background: var(--azul);
 	color: #fff;
 }
 
+/*:last-child acceder al ultimo elemento hijo*/
 .parrafos p:last-child {
 	background: #000;
 	color: #fff;
