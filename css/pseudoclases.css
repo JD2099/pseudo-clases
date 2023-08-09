@@ -97,13 +97,17 @@ label {
 	color: #fff;
 }
 
-.elementos div:last-of-type {
+.elementos span:last-of-type {
 	background: #000;
 	color: #fff;
 }
 
 
 /* ? --- --- --- --- LISTA --- --- --- --- */
+/*:nth-child() el parametro selecciona al nro de hijo*/
+/*odd-seleccioa a los pares   
+even-selecciona a los impares
+Xn-cada X elementos*/
 .lista :nth-child(2){
 	background: var(--azul);
 	color: #fff;
@@ -128,6 +132,7 @@ label {
 
 
 /* ? --- --- --- --- LISTA 3 --- --- --- --- */
+/*solo se aplica si posee un solo hijo*/
 .lista3 p:only-child {
 	background: var(--azul);
 	color: #fff;
@@ -135,6 +140,7 @@ label {
 
 
 /* ? --- --- --- --- LISTA 4 --- --- --- --- */
+/*solo se aplica si posee un solo hijo del tipo definido */
 .lista4 p:only-of-type {
 	background: var(--azul);
 	color: #fff;
